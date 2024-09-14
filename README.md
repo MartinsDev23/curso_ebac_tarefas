@@ -1,2 +1,2 @@
-# curso_ebac_tarefas
- Tarefas do curso da EBAC
+# curso-ebac
+ Repositório do curso da EBAC
