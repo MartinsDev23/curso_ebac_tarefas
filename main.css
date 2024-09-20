@@ -1,0 +1,118 @@
+h1, li {
+    color: red;
+    font-weight: bold;
+}
+
+li {
+    margin-left: 24px;
+}
+
+.navbar-header {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 24px;
+
+}
+
+h2 {
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+.container img {
+    max-height: 80vh;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.card img {
+    max-height: 70vh;
+    width: 25vw;
+}
+
+@media screen and (max-width: 767px) {
+    
+    .carousel img {
+        height: 30vh;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    header li {
+        margin-right: -50px;
+    }
+
+    header {
+        display: block;
+        flex-wrap: wrap;
+    }
+
+    .main-hamburguer {
+        display: flex;
+        justify-self: flex-start;
+    }
+
+    .navbar-header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+.card {
+    margin-bottom: 12px;
+}
+
+    .card img {
+        width: 100%;
+    }
+}   
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    .carousel img {
+        height: 50vh;
+    }
+
+    h1, li {
+        color: red;
+        font-weight: bold;
+    }
+    
+    li {
+        margin-left: 24px;
+    }
+    
+    .navbar-header {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 24px;
+    }
+    
+    h2 {
+        margin-bottom: 32px;
+        margin-top: 32px;
+    }
+    
+    
+    .card img {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .navbar-toggler {
+        display: none;
+    }
+
+    #menu-hamburguer {
+        display: block;
+    }
+
+    .card {
+        margin-bottom: 24px;
+    }
+
+}
+
